@@ -1,0 +1,324 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #222;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+/* === HEADER === */
+.header {
+  background-color: #3e2723;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.header nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header nav a:hover {
+  color: #ffd700;
+}
+
+/* === HERO SECTION === */
+.hero {
+  position: relative;
+  /* background: url("/bg01.jpg") no-repeat center center/cover; */
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* z-index: 0; */
+}
+
+.hero .overlay {
+  background-color: #3e2723bc;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #a52a2a;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #8b0000;
+}
+
+
+
+
+
+/* === ABOUT1- === */
+.about1 {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f5f5f5;
+  display: flex;
+}
+
+.about1 h4 {
+  color: #3e2723;
+  margin-bottom: 20px;
+}
+
+.about1 p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+.container1-image img{
+   width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* === ABOUT-3 === */
+.about3 {
+  padding: 30px 20px;
+  text-align: center;
+  background: #f5f5f5;
+  display: flex;
+}
+
+.about3 h4 {
+  color: #3e2723;
+  margin-bottom: 20px;
+}
+
+.about3 p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+.container3-image img{
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/* === ABOUT === */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.about h2 {
+  color: #3e2723;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* === SERVICES === */
+.services {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  color: #3e2723;
+  margin-bottom: 25px;
+}
+
+.services ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+}
+
+.services li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #a52a2a;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+/* === CONTACT === */
+.contact {
+  background: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #3e2723;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 12px;
+  background: #a52a2a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #8b0000;
+}
+
+#response {
+  margin-top: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* === FOOTER === */
+.footer {
+  background: #3e2723;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .services li {
+    font-size: 1rem;
+  }
+
+}
+/* === RESPONSIVE ABOUT SECTIONS === */
+@media (max-width: 900px) {
+
+  /* For ABOUT1 */
+  .about1 {
+    flex-direction: column; /* stack image and text vertically */
+    text-align: center;
+  }
+
+  .container1 {
+    order: 2; /* show text below the image */
+    padding: 20px;
+  }
+
+  .container1-image {
+    order: 1; /* show image above text */
+    text-align: center;
+  }
+
+  .container1-image img {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* For ABOUT3 */
+  .about3 {
+    flex-direction: column; /* stack image and text */
+    text-align: center;
+  }
+
+  .container3 {
+    order: 2; /* text below */
+    padding: 20px;
+  }
+
+  .container3-image {
+    order: 1; /* image above */
+    text-align: center;
+  }
+
+  .container3-image img {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+}
